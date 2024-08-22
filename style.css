@@ -1,0 +1,113 @@
+body {
+    font-family:monospace;
+    font-size: 90%;
+    background-color: black;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1, h3, h4, ul {
+    color: white;
+}
+
+h1, h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 50px;
+}
+
+ul {
+    display:grid;
+    grid-template-columns: 200px 300px;
+    width: 900px;
+    font-size: 15px;
+    justify-content: center;
+}
+
+ul li {
+    font-size: 20px;
+    list-style-type: none;
+}
+
+main {
+    background-color: rgb(57, 0, 65);
+    padding: 1px;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    transition: 0.5s;
+}
+
+nav {
+    background-color:rgb(241, 85, 255);
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    justify-content:space-between ;
+    transition: 0.5s;
+}
+
+nav a{
+    font-size: 20px;
+    text-decoration-line: none;
+}
+
+nav:hover {
+    background-color: rgb(126, 0, 119);
+}
+
+nav a:hover {
+    text-decoration-line:underline;
+}
+
+nav a {
+    color: white;
+}
+
+
+
+header {
+    background-color:rgb(43, 43, 43) ;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+
+img {
+    transition: 0.5s;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+}
+
+#sadBoyCat {
+    width: 300px;
+    border-radius: 60px;
+    transition: 0.5s;
+}
+
+footer p {
+    color: white;
+    padding: 50px 200px 40px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+footer {
+    background-color: rgb(37, 0, 37);
+
+}
