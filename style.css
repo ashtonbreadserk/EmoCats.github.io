@@ -60,7 +60,7 @@ main:hover {
     border: outset rgb(134, 0, 134);
     border-width: 5px;
     padding: 20px;
-    transition: 0.1s;
+    transition: 0.5s;
 }
 
 nav {
