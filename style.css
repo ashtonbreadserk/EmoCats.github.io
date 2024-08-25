@@ -90,13 +90,20 @@ nav a {
 }
 
 header {
-    background-color:rgb(43, 43, 43) ;
+    background-image: url(imgs/headerBackground.jpg);
+    background-size: 1400px;
+    background-repeat: no-repeat;
     padding: 50px 200px 40px;
     display: flex;
     justify-content: center;
     margin-top: 50px;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+header:hover {
+    transition: 0.5s;
+    background-size: 1410px;
 }
 
 header {
