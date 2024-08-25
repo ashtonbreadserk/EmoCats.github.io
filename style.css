@@ -94,7 +94,7 @@ header {
     background-image: url(imgs/headerBackground.jpg);
     background-size: 1400px;
     background-repeat: no-repeat;
-    padding: 50px 200px 40px;
+    padding: 50px 60px 30px;
     display: flex;
     justify-content: center;
     margin-top: 50px;
@@ -114,6 +114,7 @@ header {
 }
 
 img {
+    overflow: hidden;
     position: static;
     transition: 0.5s;
     height: 300px;
