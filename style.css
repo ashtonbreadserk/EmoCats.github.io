@@ -1,5 +1,11 @@
+/* new version */
+
+#more-cat-link {
+    color: white;
+}
+
 body {
-    font-family:monospace;
+    font-family: monospace;
     font-size: 90%;
     background-color: black;
 }
@@ -49,6 +55,14 @@ main {
     transition: 0.5s;
 }
 
+main:hover {
+    background-color: rgb(134, 0, 134);
+    border: outset rgb(134, 0, 134);
+    border-width: 5px;
+    padding: 20px;
+    transition: 0.1s;
+}
+
 nav {
     background-color:rgb(241, 85, 255);
     padding: 20px;
@@ -75,40 +89,54 @@ nav a {
     color: white;
 }
 
-
-
 header {
     background-color:rgb(43, 43, 43) ;
     padding: 50px 200px 40px;
     display: flex;
     justify-content: center;
-    border-radius: 30px;
     margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+header {
+    border-style: solid;
+    border-width: 3px 30px;
+    border-color: rgb(250, 106, 255);
 }
 
 img {
+    position: static;
     transition: 0.5s;
     height: 300px;
     width: 300px;
     position: relative;
     border-radius: 30px;
-    padding: 15px;
+    margin: 10px;
 }
 
-#sadBoyCat {
-    width: 300px;
+img:hover {
     border-radius: 60px;
-    transition: 0.5s;
+    padding: 10px;
+    transition: 0.1s;
 }
 
 p {
     color: white;
-    padding: 50px 200px 40px;
+    padding: 50px 200px 10px;
     text-align: justify;
     line-height: 20px;
+    transition: 0.5s;
+
+}
+
+p:hover {
+    transition-delay: 0.3s;
+    font-size: 15px;
 }
 
 footer {
     background-color: rgb(37, 0, 37);
 }
+
 
